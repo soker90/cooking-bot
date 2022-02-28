@@ -1,0 +1,28 @@
+{
+  "name": "cooking-bot",
+  "version": "1.0.0",
+  "description": "Bot de recetas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soker90/cooking-bot.git"
+  },
+  "keywords": [
+    "telegram-bot"
+  ],
+  "author": "Eduardo Parra",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/soker90/cooking-bot/issues"
+  },
+  "homepage": "https://github.com/soker90/cooking-bot#readme",
+  "devDependencies": {
+    "ngrok": "^4.3.0"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.56.0"
+  }
+}
