@@ -8,6 +8,11 @@ module.exports = async (request, response) => {
     try {
         const bot = new TelegramBot(process.env.TELEGRAM_TOKEN);
 
+        bot.onText(/\/start/, (msg) => {
+            bot.sendMessage(msg.chat.id, "Welcome");
+            
+        });
+
         const { body } = request;
 
         if (body.message) {
